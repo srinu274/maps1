@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "511289043278",
+    "project_id": "zinc-style-135723"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511289043278:android:adb71a478cbb2fc6",
+        "android_client_info": {
+          "package_name": "com.example.srinivas.newmaps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511289043278-goejuc6qart10e7q2m50ri65a24dn0rs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.srinivas.newmaps",
+            "certificate_hash": "FDBFD2C59DEA1C51160AA426745D44B261E94FDC"
+          }
+        },
+        {
+          "client_id": "511289043278-p0soetmq8g567okgviag9r6eu007qpfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9Vuo6-kPW3KJb3RHFJNx2sxw6wUoobcQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

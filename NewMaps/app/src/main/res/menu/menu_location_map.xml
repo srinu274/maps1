@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LocationMapRouteFragment">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/user_info"
+        android:orderInCategory="50"
+        android:title="@string/user_info"
+        android:icon="@drawable/ic_account_circle_white_24dp"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_should_update_location"
+        android:orderInCategory="90"
+        android:title="@string/should_update_location"
+        android:checkable="true"
+        app:showAsAction="never"
+        />
+</menu>

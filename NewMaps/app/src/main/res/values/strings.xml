@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">New Maps</string>
+    <string name="action_settings">Settings</string>
+    <string name="signin_to_continue">Signin to continue</string>
+    <string name="user_info">User Info</string>
+    <string name="should_update_location">Location Updates</string>
+</resources>
