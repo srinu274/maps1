@@ -161,6 +161,12 @@ public class LocationMapRouteFragment extends Fragment implements OnMapReadyCall
     public void onResume() {
         super.onResume();
         mMapView.onResume();
+        mFab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setLocationData();
+            }
+        });
         if(getActivity()==null) return;
         getActivity().registerReceiver(receiver, new IntentFilter(FusedLocationReceiver.ACTION_FUSED_LOCATION));
         setLocationData();
